@@ -69,3 +69,10 @@ samples2/
 datas/*.py
 
 .idea/
+
+# sqlite local cache from navicat
+id_cache*
+
+# jupyter test/cache
+.ipynb_checkpoints
+.virtual_documents
