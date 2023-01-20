@@ -15,6 +15,9 @@ class MySignal(bt.Indicator):
         # 短期均线上穿长期均线，取值为1；反之，短期均线下穿长期均线，取值为-1
         self.lines.signal = bt.ind.CrossOver(self.s_ma, self.l_ma)
 
+    c = bt.Cerebro()
+    c.broker.getvalue
+
 
 # 实例化大脑
 # cerebro = bt.Cerebro()
